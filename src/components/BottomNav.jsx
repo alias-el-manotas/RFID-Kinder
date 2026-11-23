@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import backgroundNav from "../assets/backgrounds/background-bottom-nav.png";
 
-import homeIcon from "../assets/icons/home-bottom-nav.png";
+import homeIcon from "../assets/icons/nothome-bottom-nav.png";
 import searchIcon from "../assets/icons/search-bottom-nav.png";
 import pinIcon from "../assets/icons/pin-bottom-nav.png";
 import menuIcon from "../assets/icons/menu-bottom-nav.png";
