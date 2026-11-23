@@ -1,0 +1,223 @@
+.history-page {
+  position: relative;
+
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
+.history-doodles-top {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1;
+}
+
+.history-doodles-bottom {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: -1;
+
+  pointer-events: none;
+}
+
+.history-back {
+  border: none;
+
+  background: transparent;
+
+  margin-top: 30px;
+
+  margin-left: 10px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.history-back img {
+  width: 20px;
+}
+
+.history-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 20px 35px 25px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.history-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.history-title-badge {
+  width: 34px;
+  height: 34px;
+
+  border-radius: 8px;
+
+  background: #9fd0f6;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.history-title-badge img {
+  width: 20px;
+}
+
+.history-title h1 {
+  margin: 0;
+
+  font-size: 22px;
+}
+
+.history-actions {
+  display: flex;
+
+  gap: 10px;
+}
+
+.history-action-btn {
+  width: 40px;
+  height: 40px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: #b9ddf7;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.history-action-btn img {
+  width: 20px;
+}
+
+.history-search {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin: 0 35px 25px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.history-search-icon {
+  width: 40px;
+  height: 40px;
+
+  background: #b9ddf7;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.history-search-icon img {
+  width: 20px;
+}
+
+.history-search input {
+  flex: 1;
+
+  height: 40px;
+
+  border: 2px solid #8d8d8d;
+
+  border-radius: 30px;
+
+  padding: 0 20px;
+
+  background: #f5f5f5;
+
+  outline: none;
+}
+
+.history-list {
+  position: relative;
+
+  z-index: 2;
+
+  padding: 0 35px 150px;
+}
+
+.history-item {
+  margin-bottom: 18px;
+}
+
+.history-time {
+  font-size: 12px;
+
+  font-style: italic;
+
+  color: #666;
+
+  margin-bottom: 4px;
+}
+
+.history-row {
+  display: flex;
+
+  gap: 8px;
+}
+
+.history-color {
+  width: 16px;
+  height: 16px;
+
+  margin-top: 5px;
+
+  flex-shrink: 0;
+}
+
+.history-row h3 {
+  margin: 0;
+
+  font-size: 16px;
+
+  font-weight: 700;
+}
+
+.history-row p {
+  margin: 2px 0 0;
+
+  line-height: 1.2;
+}

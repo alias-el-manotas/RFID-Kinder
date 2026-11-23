@@ -1,0 +1,247 @@
+.quick-search-page {
+  min-height: 100vh;
+
+  position: relative;
+}
+
+.spirals-bottom-left {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100px;
+
+  z-index: 101;
+}
+
+.spirals-top-right {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  width: 100px;
+
+  opacity: .9;
+
+  z-index: 4;
+}
+
+.quick-search-video-bg {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+
+  pointer-events: none;
+
+  z-index: -11;
+}
+
+.quick-search-content {
+  padding: 40px 35px 120px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.quick-search-header {
+  display: flex;
+
+  gap: 14px;
+}
+
+.quick-search-title-badge {
+  width: 38px;
+  height: 32px;
+
+  background: #f5b6d2;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0;
+  margin-left: -10px;
+}
+
+.quick-search-title-badge img {
+  height: 20px;
+}
+
+.quick-search-header h1 {
+  margin: 0;
+
+  font-size: 22px;
+
+  font-weight: 700;
+}
+
+.quick-search-subtitle {
+  margin-top: 8px;
+
+  font-size: 14px;
+
+  line-height: 1.4;
+}
+
+.quick-search-loading {
+  display: block;
+
+  width: min(350px, 90vw);
+
+  margin: 100px auto 0;
+}
+
+.quick-placeholder {
+  padding: 120px 30px;
+
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 700;
+}
+
+.quick-result {
+  padding: 40px 35px 120px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.quick-success {
+  color: #000;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.quick-profile {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  margin-top: 30px;
+}
+
+.quick-avatar {
+  width: 90px;
+
+  height: 90px;
+
+  object-fit: contain;
+
+  border: 2px solid #9a9a9a;
+
+  background: white;
+}
+
+.quick-profile h2 {
+  color: #1279d3;
+  font-size: 20px;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
+}
+
+.quick-profile p {
+  margin: 0;
+
+  font-size: 14px;
+
+  color: #000;
+}
+
+.quick-section {
+  margin-top: 20px;
+}
+
+.quick-section h3 {
+  margin-bottom: 0;
+  margin-top: 14px;
+
+  font-size: 16px;
+
+  font-weight: 700;
+}
+
+.quick-section p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.quick-muted {
+  color: #7f7f7f;
+
+  font-style: italic;
+}
+
+.quick-error {
+  color: #000;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.quick-not-found {
+  margin-top: 40px;
+}
+
+.quick-not-found-image {
+  width: 180px;
+
+  max-width: 80%;
+
+  display: block;
+
+  margin: 50px auto 0;
+}
+
+.quick-not-found h2 {
+  margin-bottom: 12px;
+
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.quick-not-found p {
+  margin: 10px 0;
+  font-size: 16px;
+
+}
+
+
+.quick-debug {
+  position: fixed;
+
+  top: 10px;
+  right: 10px;
+
+  z-index: 9999;
+
+  display: flex;
+
+  gap: 6px;
+}
+
+.quick-debug button {
+  padding: 5px 8px;
+
+  font-size: 11px;
+}
+

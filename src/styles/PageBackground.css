@@ -1,0 +1,15 @@
+.page-background {
+  position: relative;
+
+  min-height: 100vh;
+
+  background-image: url("../assets/backgrounds/background.png");
+
+  background-repeat: repeat-y;
+
+  background-size: 100% auto;
+
+  background-position: top center;
+
+  overflow-x: hidden;
+}
