@@ -3,7 +3,7 @@ import babel from '@rolldown/plugin-babel'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/RFID-Kinder-no-NFC/',
+  base: '/RFID-Kinder/',
 
   plugins: [
     react(),
